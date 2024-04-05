@@ -1,0 +1,32 @@
+.come{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    background-color: black;
+    animation-name: comeani;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+.tac-one-regular {
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    font-size: 350px;
+    color: white;
+}
+@keyframes comeani{
+    0%{
+        background-color: white;
+    }
+    50%{
+
+    }
+    100%{
+        background-color: black;
+    }
+}
