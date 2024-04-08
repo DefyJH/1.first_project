@@ -55,7 +55,7 @@ document.querySelector('.codinator').addEventListener(
 )
 document.querySelector('.sdoor2').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/main.html'
+        location.href='http://127.0.0.1:5500/1.first_project/welcome.html'
     }
 )
 document.querySelector('.sell').addEventListener(
