@@ -63,36 +63,42 @@
     color: rgb(72, 120, 184);
     font-size: 50px;
     text-align: center;
+    cursor: pointer;
 }
 .musinsa{
     background-image: url(./image/무신사2.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
+    cursor: pointer;
 }
 .kream{
     background-image: url(./image/kream.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    cursor: pointer;
 }
 .balaan{
     background-image: url(./image/발란2.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    cursor: pointer;
 }
 .thunder{
     background-image: url(./image/번장2.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
+    cursor: pointer;
 }
 .naver{
     background-image: url(./image/중나2.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
+    cursor: pointer;
 }
 .mdoor{
     color: rgb(218, 12, 22);
@@ -109,28 +115,33 @@
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
+    cursor: pointer;
 }
 .GQ{
     background-image: url(./image/GQ.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 98%;
+    cursor: pointer;
 }
 .esq{
     background-image: url(./image/에스콰이어.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
+    cursor: pointer;
 }
-.leon{
-    background-image: url(./image/레옹.png);
+.maxim{
+    background-image: url(./image/맥심.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
+    cursor: pointer;
 }
 .GQs{
     background-image: url(./image/지큐스타일.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
+    cursor: pointer;
 }

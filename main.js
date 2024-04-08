@@ -23,3 +23,33 @@ document.querySelector('.naver').addEventListener(
         location.href='https://web.joongna.com/'
     }
 )
+document.querySelector('.arena').addEventListener(
+    'click', ()=>{
+        location.href='https://www.arenakorea.com/arena'
+    }
+)
+document.querySelector('.GQ').addEventListener(
+    'click', ()=>{
+        location.href='https://www.gqkorea.co.kr/'
+    }
+)
+document.querySelector('.esq').addEventListener(
+    'click', ()=>{
+        location.href='https://www.esquirekorea.co.kr/'
+    }
+)
+document.querySelector('.maxim').addEventListener(
+    'click', ()=>{
+        location.href='https://www.maximkorea.net/'
+    }
+)
+document.querySelector('.GQs').addEventListener(
+    'click', ()=>{
+        location.href='https://www.gqkorea.co.kr/style/'
+    }
+)
+document.querySelector('.codinator').addEventListener(
+    'click', ()=>{
+        location.href='http://127.0.0.1:5500/1.first_project/codinator.html'
+    }
+)
