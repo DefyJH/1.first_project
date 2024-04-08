@@ -53,3 +53,28 @@ document.querySelector('.codinator').addEventListener(
         location.href='http://127.0.0.1:5500/1.first_project/codinator.html'
     }
 )
+document.querySelector('.sdoor2').addEventListener(
+    'click', ()=>{
+        location.href='http://127.0.0.1:5500/1.first_project/main.html'
+    }
+)
+document.querySelector('.sell').addEventListener(
+    'click', ()=>{
+        location.href='http://127.0.0.1:5500/1.first_project/sell.html'
+    }
+)
+document.querySelector('.custom').addEventListener(
+    'click', ()=>{
+        location.href='http://127.0.0.1:5500/1.first_project/custom.html'
+    }
+)
+document.querySelector('.buy').addEventListener(
+    'click', ()=>{
+        location.href='http://127.0.0.1:5500/1.first_project/buy.html'
+    }
+)
+document.querySelector('.oversea').addEventListener(
+    'click', ()=>{
+        location.href='http://127.0.0.1:5500/1.first_project/oversea.html'
+    }
+)

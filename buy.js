@@ -3,14 +3,14 @@ document.querySelector('.sdoor2').addEventListener(
         location.href='http://127.0.0.1:5500/1.first_project/main.html'
     }
 )
-document.querySelector('.custom').addEventListener(
-    'click',()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/custom.html'
-    }
-)
 document.querySelector('.cordinator').addEventListener(
     'click', ()=>{
         location.href='http://127.0.0.1:5500/1.first_project/codinator.html'
+    }
+)
+document.querySelector('.custom').addEventListener(
+    'click',()=>{
+        location.href='http://127.0.0.1:5500/1.first_project/custom.html'
     }
 )
 document.querySelector('.oversea').addEventListener(
@@ -34,12 +34,13 @@ function displayFileName() {
     document.querySelector('.file_name').value = fileName;
 }
 function validateForm() {
-    var price = document.querySelector('input[name="price"]').value;
-    var location = document.querySelector('input[name="location"]').value;
-    var lordChecked = document.querySelector('input[name="lord"]:checked');
-    var lord2Checked = document.querySelector('input[name="lord2"]:checked');
+    var tex1 = document.querySelector('input[name="tex1"]').value;
+    var tex2 = document.querySelector('input[name="tex2"]').value;
+    var tex3 = document.querySelector('input[name="tex3"]').value;
+    var tex4 = document.querySelector('input[name="tex4"]').value;
+    var sangtChecked = document.querySelector('input[name="sangt"]:checked');
 
-    if (price.trim() === '' || location.trim() === '' || !lordChecked || !lord2Checked) {
+    if (tex1.trim() === '' || tex2.trim() === '' || tex3.trim() === '' || tex4.trim() === '' || !sangtChecked) {
         alert('모든 항목을 입력해주세요.');
         return false;
     }

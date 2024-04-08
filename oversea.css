@@ -36,7 +36,7 @@
     color: rgb(72, 120, 184);
     font-size: 50px;
     text-align: center;
-    cursor: pointer;
+    cursor: pointer
 }
 .select{
     background-color: white;
@@ -75,14 +75,6 @@ label{
     overflow: hidden;
     border: 0;
 }
-.main{
-    justify-content: center;
-    display: flex;
-    width: 100vw;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-}
 .sul{
     font-size: 30px;
     color:  rgb(140, 163, 206);
@@ -101,6 +93,9 @@ label{
 .sul2{
     font-size: 20px;
 }
+.rd{
+    cursor: pointer
+}
 .submit{
     width: 500px;
     height: 100px;
@@ -110,6 +105,4 @@ label{
     cursor: pointer;
     margin-top: 100px;
 }
-.rd{
-    cursor: pointer
-}
+ddd
