@@ -8,11 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Tac+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="botoom">
         <div class="sdoor2 tac-one-regular">
             <p>Order</p>
+        </div>
+        <div class="user-actions">
+            <a href="#" class="login-link east-sea-dokdo-regular">로그인</a>
+            <span class="separator">|</span>
+            <a href="#" class="signup east-sea-dokdo-regular">회원가입</a>
+        </div> 
+        <div id="login-popup" class="popup">
+            <form class="login-form">
+            <input type="text" placeholder="ID">
+            <input type="password" placeholder="password">
+            <input type="submit" value="로그인">
+            </form>
         </div>
         <div class="menu">
             <div class="site_name3 tac-one-regular custom">Custom</div>
@@ -28,14 +43,14 @@
             <label for="file">파일찾기</label>
             <input type="file" id="file" onchange="displayFileName()">
         </div>
-        <div class="sul"><p>원하는 코디의 사진이나 텍스트를 업로드 해주세요</p></div>
+        <div class="sul"><p class="east-sea-dokdo-regular">원하는 코디의 사진이나 텍스트를 업로드 해주세요</p></div>
         <div class="qstext">
-            <p class="sul2">원하시는 코디 가격대 : <input type="text" name="price"></p>
-            <p class="sul2">사시는 지역 : <input type="text" name="location"></p>
-            <p class="sul2">원하시는 코디 경로 : 
+            <p class="sul2 east-sea-dokdo-regular">원하시는 코디 가격대 : <input type="text" name="price"></p>
+            <p class="sul2 east-sea-dokdo-regular">사시는 지역 : <input type="text" name="location"></p>
+            <p class="sul2 east-sea-dokdo-regular">원하시는 코디 경로 : 
                 만나서 <input type="radio" name="lord" class="rd"> 
                 원격으로 <input type="radio" name="lord" class="rd"></p>
-            <p class="sul2">자주 쇼핑하시는 경로 : 
+            <p class="sul2 east-sea-dokdo-regular">자주 쇼핑하시는 경로 : <br>
                 오프라인 보세 <input type="radio" name="lord2" class="rd">
                 오프라인 백화점 <input type="radio" name="lord2" class="rd">
                 온라인쇼핑몰 <input type="radio" name="lord2" class="rd">

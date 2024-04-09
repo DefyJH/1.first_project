@@ -105,4 +105,41 @@ label{
     cursor: pointer;
     margin-top: 100px;
 }
-ddd
+.east-sea-dokdo-regular {
+    font-family: "East Sea Dokdo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    }
+    .user-actions {
+        position: fixed;
+        top: 10px; 
+        right: 10px; 
+        font-size: 14px;
+        color:  white;
+        font: bolder;
+    }
+    
+.user-actions a {
+        text-decoration: none;
+        color: white; 
+    }
+    
+.user-actions .separator {
+margin: 0 5px; 
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+    line-height: 50px;
+    text-align: center;
+}

@@ -47,3 +47,14 @@ function validateForm() {
 
     return true;
 }
+document.addEventListener("DOMContentLoaded", function() {
+    var loginLink = document.querySelector(".login-link");
+    var loginPopup = document.getElementById("login-popup");
+    loginLink.addEventListener("click", function(event) {
+    event.preventDefault();
+    openLoginPopup();
+    });
+    function openLoginPopup() {
+    loginPopup.style.display = "block";
+    }
+    });

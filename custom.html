@@ -8,11 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Tac+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="botoom">
         <div class="sdoor2 tac-one-regular">
             <p>Order</p>
+        </div>
+        <div class="user-actions">
+            <a href="#" class="login-link east-sea-dokdo-regular">로그인</a>
+            <span class="separator">|</span>
+            <a href="#" class="signup east-sea-dokdo-regular">회원가입</a>
+        </div>
+        <div id="login-popup" class="popup">
+            <form class="login-form">
+            <input type="text" placeholder="ID">
+            <input type="password" placeholder="password">
+            <input type="submit" value="로그인">
+            </form>
         </div>
         <div class="menu">
             <div class="site_name3 tac-one-regular select custom">Custom</div>
@@ -27,25 +42,25 @@
             <label for="file">파일찾기</label>
             <input type="file" id="file" onchange="displayFileName()">
         </div>
-        <div class="sul"><p>원하는 문양의 사진이나 텍스트를 업로드 해주세요</p></div>
+        <div class="sul"><p class="east-sea-dokdo-regular">원하는 문양의 사진이나 텍스트를 업로드 해주세요</p></div>
         </div>
         <div class="qstext">
-            <p class="sul2">커스텀을 하고자 하는 물품의 종류 :</p>
-            <p class="sul2">
+            <p class="sul2 east-sea-dokdo-regular">커스텀을 하고자 하는 물품의 종류 :</p>
+            <p class="sul2 east-sea-dokdo-regular">
                 신발 <input type="radio" name="cst" class="rd">
                 티셔츠 <input type="radio" name="cst" class="rd">
                 아우터 <input type="radio" name="cst" class="rd">
                 하의 <input type="radio" name="cst" class="rd">
                 가방 <input type="radio" name="cst" class="rd">
             </p>
-            <p class="sul2">커스텀을 하고자 하는 물품의 소재 :</p>
-            <p class="sul2">
+            <p class="sul2 east-sea-dokdo-regular">커스텀을 하고자 하는 물품의 소재 :</p>
+            <p class="sul2 east-sea-dokdo-regular">
                 면 <input type="radio" name="cst2" class="rd">
                 나일론 <input type="radio" name="cst2" class="rd">
                 가죽 <input type="radio" name="cst2" class="rd">
                 그외 <input type="radio" name="cst2" class="rd">
             </p>
-            <p class="sul2">도안을 받기위한 메일주소 : <input type="email"></p>
+            <p class="sul2 east-sea-dokdo-regular">도안을 받기위한 메일주소 : <input type="email"></p>
             <input type="submit" value="send" class="submit tac-one-regular">
         </div>
     </div></form>

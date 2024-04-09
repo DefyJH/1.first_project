@@ -78,3 +78,14 @@ document.querySelector('.oversea').addEventListener(
         location.href='http://127.0.0.1:5500/1.first_project/oversea.html'
     }
 )
+document.addEventListener("DOMContentLoaded", function() {
+    var loginLink = document.querySelector(".login-link");
+    var loginPopup = document.getElementById("login-popup");
+    loginLink.addEventListener("click", function(event) {
+    event.preventDefault();
+    openLoginPopup();
+    });
+    function openLoginPopup() {
+    loginPopup.style.display = "block";
+    }
+    });
