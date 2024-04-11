@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ph{
+    background-image: url(./image/p1.png);
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: popani;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.open{
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+.close{
+    width: 500px;
+    ;
+}
+@keyframes popani{
+    0%{
+
+    }
+    20%{
+        background-image: url(./image/p2.png);
+    }
+    40%{
+        background-image: url(./image/p3.png);
+    }
+    60%{
+        background-image: url(./image/p4.png);
+    }
+    80%{
+        background-image: url(./image/p5.png);
+    }
+    100%{
+        background-image: url(./image/p6.png);
+    }
+}
