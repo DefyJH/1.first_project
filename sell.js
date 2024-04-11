@@ -40,7 +40,7 @@ function validateForm() {
     var tex4 = document.querySelector('input[name="tex4"]').value;
     var sangtChecked = document.querySelector('input[name="sangt"]:checked');
 
-    if (tex1.trim() === '' || tex2.trim() === '' || tex3.trim() === '' || !sangtChecked) {
+    if (tex1.trim() === '' || tex2.trim() === '' || tex3.trim() === '' || tex4.trim() === '' || !sangtChecked) {
         alert('모든 항목을 입력해주세요.');
         return false;
     }

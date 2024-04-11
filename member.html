@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./member.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Tac+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top">
+        <h1>회원가입</h1>
+    </div>
+    <div class="mid"><form id="myform" action="">
+            <p>ID : <input type="text" name="n1"> <input type="button" value="중복확인"></p>
+            <p>Password : <input type="password" name="n2"></p>
+            <p>Password 확인 : <input type="password" name="n3"></p>
+            <p>이름 : <input type="text" name="n4"></p>
+            <p>주민등록번호 : <input type="text" maxlength="6" name="n6"> - <input name="n7" type="password" maxlength="7"></p>
+            <p>전화번호 : <input type="tel" name="n8" placeholder="010" maxlength="3">
+                - <input name="n9" type="tel" maxlength="4"> - <input name="n10" type="tel" maxlength="4"></p>
+    </form></div>            
+    <div class="bl_stack form">
+        <div class="el_ttl">주소</div>
+        <div class="bl_stack bl_stack--row">
+            <input type="text" class="el_input hp_txt-center" placeholder="" disabled id="zonecode" />
+            <button class="el_btn el_btn--outline hp_shrink-0" id="search-btn">
+                우편번호 찾기
+            </button>
+        </div>
+        <input type="text" class="el_input" placeholder="" disabled id="roadAddress" />
+        <input type="text" class="el_input" placeholder="상세주소를 입력해주세요." id="roadAddressDetail" />
+        <button class="el_btn" id="register-btn">주소 등록하기</button>
+    </div>
+    <div class="bl_stack">
+        <div class="el_ttl">주소 입력 결과</div>
+        <div class="el_ttl">우편번호</div>
+        <div class="el_result"></div>
+        <div class="el_ttl">주소</div>
+        <div class="el_result"></div>
+        <div class="el_ttl">상세주소</div>
+        <div class="el_result"></div>
+    </div>
+    <div class="bottom">
+        <button id="submit-btn" class="submit tac-one-regular">send</button>
+    </div>
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="./member.js"></script>
+</body>
+
+</html>
