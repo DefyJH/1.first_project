@@ -57,3 +57,5 @@ document.addEventListener("DOMContentLoaded", function() {
     loginPopup.style.display = "block";
     }
     });
+    window.open("http://127.0.0.1:5500/1.first_project/popup01.html","_blank",
+    "width=500,height=600");
