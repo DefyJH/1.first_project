@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./codinator.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Tac+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./sell.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Nanum+Pen+Script&display=swap" rel="stylesheet">
@@ -20,8 +20,8 @@
         <div class="user-actions">
             <a href="#" class="login-link east-sea-dokdo-regular">로그인</a>
             <span class="separator">|</span>
-            <a href="http://127.0.0.1:5500/1.first_project/member.html" class="signup east-sea-dokdo-regular">회원가입</a>
-        </div>  
+            <a href="http://127.0.0.1:5500/1.first_project/member0/member.html" class="signup east-sea-dokdo-regular">회원가입</a>
+        </div> 
         <div id="login-popup" class="popup">
             <form class="login-form">
             <input type="text" placeholder="ID">
@@ -32,31 +32,33 @@
         <div class="menu">
             <div class="site_name3 tac-one-regular custom">Custom</div>
             <div class="site_name3 tac-one-regular oversea">OverseasBuy</div>
-            <div class="site_name3 tac-one-regular cordinator">Cordinator</div>
+            <div class="site_name3 tac-one-regular select cordinator">Cordinator</div>
             <div class="site_name3 tac-one-regular buy">Buy</div>
-            <div class="site_name3 tac-one-regular select sell">Sell</div>
-        </div>
+            <div class="site_name3 tac-one-regular sell">Sell</div>
     </div>
-    <div main><form action="" onsubmit="return validateForm()">
+    <div class="main">
+        <form action="" onsubmit="validateForm()">
         <div class="addfile">
             <input class="file_name" value="첨부파일" placeholder="첨부파일">
             <label for="file">파일찾기</label>
             <input type="file" id="file" onchange="displayFileName()">
         </div>
-        <div class="sul"><p class="east-sea-dokdo-regular">판매하고자 하시는 제품의 사진을 업로드 해주세요</p></div>
+        <div class="sul"><p class="east-sea-dokdo-regular">원하는 코디의 사진이나 텍스트를 업로드 해주세요</p></div>
+        <div class="qstext">
+            <p class="sul2 east-sea-dokdo-regular">원하시는 코디 가격대 : <input type="text" name="price"></p>
+            <p class="sul2 east-sea-dokdo-regular">사시는 지역 : <input type="text" name="location"></p>
+            <p class="sul2 east-sea-dokdo-regular">원하시는 코디 경로 : 
+                만나서 <input type="radio" name="lord" class="rd"> 
+                원격으로 <input type="radio" name="lord" class="rd"></p>
+            <p class="sul2 east-sea-dokdo-regular">자주 쇼핑하시는 경로 : <br>
+                오프라인 보세 <input type="radio" name="lord2" class="rd">
+                오프라인 백화점 <input type="radio" name="lord2" class="rd">
+                온라인쇼핑몰 <input type="radio" name="lord2" class="rd">
+                구제나 중고 <input type="radio" name="lord2" class="rd"></p>
+                <input type="submit" value="send" class="submit tac-one-regular">
+        </div>
+        </form>
     </div>
-    <div class="qstext">
-        <p class="sul2 east-sea-dokdo-regular">원하시는 가격 : <input type="text" name="tex1"></p>
-        <p class="sul2 east-sea-dokdo-regular">제품 번호 : <input type="text" name="tex2"></p>
-        <p class="sul2 east-sea-dokdo-regular">사이즈 : <input type="text" name="tex3"></p>
-        <p class="sul2 east-sea-dokdo-regular">노출 가능 연락처 : <input type="text" name="tex4"></p>
-        <p class="sul2 east-sea-dokdo-regular">판매하시는 제품 상태 : <br>
-            최상 : <input type="radio" name="sangt" class="rd">
-            상 : <input type="radio" name="sangt" class="rd">
-            중 : <input type="radio" name="sangt" class="rd">
-            하 : <input type="radio" name="sangt" class="rd"></p>
-            <input type="submit" class="submit tac-one-regular" value="send">
-    </div></form>
-    <script src="./sell.js"></script>
+    <script src="./codinator.js"></script>
 </body>
 </html>

@@ -50,32 +50,32 @@ document.querySelector('.GQs').addEventListener(
 )
 document.querySelector('.codinator').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/codinator.html'
+        location.href='http://127.0.0.1:5500/1.first_project/codinator0/codinator.html'
     }
 )
 document.querySelector('.sdoor2').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/welcome.html'
+        location.href='http://127.0.0.1:5500/1.first_project/welcome0/welcome.html'
     }
 )
 document.querySelector('.sell').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/sell.html'
+        location.href='http://127.0.0.1:5500/1.first_project/sell0/sell.html'
     }
 )
 document.querySelector('.custom').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/custom.html'
+        location.href='http://127.0.0.1:5500/1.first_project/custom0/custom.html'
     }
 )
 document.querySelector('.buy').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/buy.html'
+        location.href='http://127.0.0.1:5500/1.first_project/buy0/buy.html'
     }
 )
 document.querySelector('.oversea').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/oversea.html'
+        location.href='http://127.0.0.1:5500/1.first_project/oversea0/oversea.html'
     }
 )
 document.addEventListener("DOMContentLoaded", function() {

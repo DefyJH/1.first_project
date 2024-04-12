@@ -10,7 +10,7 @@
 
 }
 .ph{
-    background-image: url(./image/p1.png);
+    background-image: url(../image/p1.png);
     width: 500px;
     height: 500px;
     background-size: cover;
@@ -36,19 +36,19 @@
 
     }
     20%{
-        background-image: url(./image/p2.png);
+        background-image: url(../image/p2.png);
     }
     40%{
-        background-image: url(./image/p3.png);
+        background-image: url(../image/p3.png);
     }
     60%{
-        background-image: url(./image/p4.png);
+        background-image: url(../image/p4.png);
     }
     80%{
-        background-image: url(./image/p5.png);
+        background-image: url(../image/p5.png);
     }
     100%{
-        background-image: url(./image/p6.png);
+        background-image: url(../image/p6.png);
     }
 }
 html, body {overflow:hidden;}

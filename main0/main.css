@@ -67,35 +67,35 @@
     cursor: pointer;
 }
 .musinsa{
-    background-image: url(./image/무신사2.jpg);
+    background-image: url(../image/무신사2.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
     cursor: pointer;
 }
 .kream{
-    background-image: url(./image/kream.jpg);
+    background-image: url(../image/kream.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
     cursor: pointer;
 }
 .balaan{
-    background-image: url(./image/발란2.png);
+    background-image: url(../image/발란2.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
     cursor: pointer;
 }
 .thunder{
-    background-image: url(./image/번장2.png);
+    background-image: url(../image/번장2.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
     cursor: pointer;
 }
 .naver{
-    background-image: url(./image/중나2.png);
+    background-image: url(../image/중나2.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
@@ -112,35 +112,35 @@
     height: 50%;
 }
 .arena{
-    background-image: url(./image/아레나.png);
+    background-image: url(../image/아레나.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
     cursor: pointer;
 }
 .GQ{
-    background-image: url(./image/GQ.png);
+    background-image: url(../image/GQ.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 98%;
     cursor: pointer;
 }
 .esq{
-    background-image: url(./image/에스콰이어.jpg);
+    background-image: url(../image/에스콰이어.jpg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
     cursor: pointer;
 }
 .maxim{
-    background-image: url(./image/맥심.svg);
+    background-image: url(../image/맥심.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
     cursor: pointer;
 }
 .GQs{
-    background-image: url(./image/지큐스타일.png);
+    background-image: url(../image/지큐스타일.png);
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
