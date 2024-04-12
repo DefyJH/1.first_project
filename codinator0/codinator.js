@@ -1,31 +1,31 @@
 document.querySelector('.sdoor2').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/welcome0/welcome.html'
+        location.href='../welcome0/welcome.html'
     }
 )
 document.querySelector('.cordinator').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/codinator0/codinator.html'
+        location.href='./codinator.html'
     }
 )
 document.querySelector('.custom').addEventListener(
     'click',()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/custom0/custom.html'
+        location.href='../custom0/custom.html'
     }
 )
 document.querySelector('.oversea').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/oversea0/oversea.html'
+        location.href='../oversea0/oversea.html'
     }
 )
 document.querySelector('.buy').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/buy0/buy.html'
+        location.href='../buy0/buy.html'
     }
 )
 document.querySelector('.sell').addEventListener(
     'click', ()=>{
-        location.href='http://127.0.0.1:5500/1.first_project/sell0/sell.html'
+        location.href='../sell0/sell.html'
     }
 )
 function displayFileName() {
@@ -57,5 +57,5 @@ document.addEventListener("DOMContentLoaded", function() {
     loginPopup.style.display = "block";
     }
     });
-    window.open("http://127.0.0.1:5500/1.first_project/popup0/popup01.html","_blank",
+    window.open("../popup0/popup01.html","_blank",
     "width=500,height=600");

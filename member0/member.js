@@ -2,13 +2,10 @@ const elZonecode = document.querySelector("#zonecode");
 const elRoadAddress = document.querySelector("#roadAddress");
 const elRoadAddressDetail = document.querySelector("#roadAddressDetail");
 const elResults = document.querySelectorAll(".el_result");
-// 주소검색창 열기 함수
 const onClickSearch = () => {
     console.log(1);
     new daum.Postcode({
         oncomplete: function (data) {
-        // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분입니다.
-        // 예제를 참고하여 다양한 활용법을 확인해 보세요.
         console.log(data);
         elZonecode.setAttribute("value", data.zonecode);
         elRoadAddress.setAttribute("value", data.address);
@@ -23,7 +20,6 @@ const register = () => {
     elResults[1].innerHTML = elRoadAddress.getAttribute("value");
     elResults[2].innerHTML = elRoadAddressDetail.getAttribute("value");
 };
-// 이벤트 추가
     document.querySelector("#search-btn").addEventListener("click", () => {
     onClickSearch();
     });
